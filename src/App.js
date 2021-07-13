@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./styles/App.css";
+import SignIn from "./pages/SignIn";
 
+// App.js : componenet 정의
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route path="/" component={SignIn} />
+          <Route render={() => <div className='error'>에러 페이지</div>} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 

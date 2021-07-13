@@ -1,0 +1,97 @@
+* {margin:0; padding:0;}
+
+/* sign in page */
+
+main {
+  height: 682px;
+  background-color: #FAFAFA;
+}
+
+.login_form_container {
+  width:350px;
+  height: 606px;
+  background-color: #FFF;
+  margin: auto;
+  min-height: 830px;
+  margin-top: 50px;
+}
+
+.login_form_container .login_form {
+  width: 350px;
+  height: 379px;
+
+  border: 1px solid #dbdbdb;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.login_form_container .login_form .login_input input{
+  width: 258px;
+  height: 36px;
+}
+
+.login_form_container .login_horizon {
+  margin: 10px 40px 18px;
+}
+
+.login_form_container .login_horizon .br {
+  height: 0.1em;
+  width: 37%;
+  float: left;
+  background-color: #dbdbdb;
+  position: relative;
+  top: .45em;
+}
+
+.login_form_container .login_horizon .or {
+  float: left;
+  margin: 0 18px;
+}
+
+.login_form_container .login_facebook {
+  margin: 8px 40px;
+}
+
+.login_form_container .login_facebook button{
+  border: 0;
+  outline: 0;
+  background-color: #fff;
+}
+
+.login_form_container .login_facebook .facebook_icon img{
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  top: 3px;
+}
+
+.login_form_container .login_facebook .facebook_text {
+  color: #385185;
+}
+
+.logo {
+  width: 175px;
+  height: 60px;
+}
+
+footer {
+  height: 127.67px;
+  padding: 0 16px;
+}
+
+footer .container {
+  margin-bottom: 52px;
+}
+
+footer .article-link {
+  margin-top: 24px;
+ 
+}
+
+footer .article-each {
+  float: left;
+  margin: 0 8px 12px;
+  font-size: 8px;
+}
+
+
